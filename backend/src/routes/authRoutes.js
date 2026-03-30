@@ -2,7 +2,7 @@ import express from "express"
 
 const router = express.Router();
 
-router.get("/regiter", async (req , res) => {
+router.get("/register", async (req , res) => {
 res.send("register");
 })
 
